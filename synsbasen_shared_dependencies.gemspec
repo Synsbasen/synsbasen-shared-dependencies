@@ -44,15 +44,23 @@ Gem::Specification.new do |spec|
   spec.add_dependency "sentry-sidekiq", "~> 5.21.0"
   spec.add_dependency "prometheus_exporter", "~> 2.1.1"
   spec.add_dependency "listen", "~> 3.3"
+  spec.add_dependency "ransack", "~> 4.2.1"
   spec.add_dependency "slim", "~> 5.2.1"
   spec.add_dependency "slim-rails", "~> 3.6.3"
-  spec.add_dependency "autoprefixer-rails" # ADD VERSION
+  spec.add_dependency "sassc-rails", "~> 2.1.2"
+  spec.add_dependency "autoprefixer-rails", "~> 10.4.19.0"
+  spec.add_dependency "jsbundling-rails", "~> 1.3.1"
+  spec.add_dependency "cssbundling-rails", "~> 1.4.1"
+  spec.add_dependency "sprockets-rails", "~> 3.5.2"
+  spec.add_dependency "redcarpet", "~> 3.6.0"
+  spec.add_dependency "paranoia", "~> 3.0.0"
 
   # Specify development and test dependencies
   spec.add_development_dependency "dockerfile-rails", "~> 1.6.22"
   spec.add_development_dependency "pry", "~> 0.14.2"
   spec.add_development_dependency "rspec-rails", "~> 7.0"
   spec.add_development_dependency "rspec-sidekiq", "~> 5.0"
+  spec.add_development_dependency "web-console", "~> 4.2.1"
 
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
