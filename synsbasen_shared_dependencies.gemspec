@@ -51,7 +51,6 @@ Gem::Specification.new do |spec|
   spec.add_dependency "autoprefixer-rails", "~> 10.4.19.0"
   spec.add_dependency "jsbundling-rails", "~> 1.3.1"
   spec.add_dependency "cssbundling-rails", "~> 1.4.1"
-  spec.add_dependency "sprockets-rails", "~> 3.5.2"
   spec.add_dependency "redcarpet", "~> 3.6.0"
   spec.add_dependency "paranoia", "~> 3.0.0"
 
@@ -61,7 +60,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec-rails", "~> 7.0"
   spec.add_development_dependency "rspec-sidekiq", "~> 5.0"
   spec.add_development_dependency "web-console", "~> 4.2.1"
-
+  
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
 end

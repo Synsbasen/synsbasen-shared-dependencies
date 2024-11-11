@@ -23,7 +23,6 @@ PATH
       sidekiq-unique-jobs (~> 8.0.10)
       slim (~> 5.2.1)
       slim-rails (~> 3.6.3)
-      sprockets-rails (~> 3.5.2)
 
 GEM
   remote: https://rubygems.org/
