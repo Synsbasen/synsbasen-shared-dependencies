@@ -20,14 +20,11 @@ require 'jsbundling-rails'
 require 'cssbundling-rails'
 require 'redcarpet'
 require 'paranoia'
-
-# if %w[test development].include?(ENV['RACK_ENV'] || ENV['RAILS_ENV'])
-#   require 'dockerfile-rails'
-#   require 'pry'
-#   require 'rspec-rails'
-#   require 'rspec-sidekiq'
-#   require 'web-console'
-# end
+require 'dockerfile-rails'
+require 'pry'
+require 'rspec-rails'
+require 'rspec-sidekiq'
+require 'web-console'
 
 require_relative "synsbasen_shared_dependencies/version"
 require_relative 'synsbasen_shared_dependencies/sidekiq_initializer'
