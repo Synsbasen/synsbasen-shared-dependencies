@@ -52,11 +52,6 @@ Gem::Specification.new do |spec|
   spec.add_dependency "sprockets-rails", "~> 3.5.2"
   spec.add_dependency "redcarpet", "~> 3.6.0"
   spec.add_dependency "paranoia", "~> 3.0.0"
-  spec.add_dependency "dockerfile-rails", "~> 1.6.22"
-  spec.add_dependency "pry", "~> 0.14.2"
-  spec.add_dependency "rspec-rails", "~> 7.0"
-  spec.add_dependency "rspec-sidekiq", "~> 5.0"
-  spec.add_dependency "web-console", "~> 4.2.1"
 
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
