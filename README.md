@@ -5,4 +5,6 @@ This gem provides a collection of dependencies shared across Synsbasen's applica
 # Installation
 Add the gem to your Gemfile:
 
+```ruby
 gem 'synsbasen_shared_dependencies', github: 'Synsbasen/synsbasen-shared-dependencies', branch: 'master'
+```
