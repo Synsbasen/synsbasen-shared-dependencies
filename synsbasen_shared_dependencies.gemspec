@@ -54,11 +54,11 @@ Gem::Specification.new do |spec|
   spec.add_dependency "paranoia", "~> 3.0.0"
 
   # Specify development and test dependencies
-  spec.add_development_dependency "dockerfile-rails", "~> 1.6.22"
-  spec.add_development_dependency "pry", "~> 0.14.2"
-  spec.add_development_dependency "rspec-rails", "~> 7.0"
-  spec.add_development_dependency "rspec-sidekiq", "~> 5.0"
-  spec.add_development_dependency "web-console", "~> 4.2.1"
+  # spec.add_development_dependency "dockerfile-rails", "~> 1.6.22"
+  # spec.add_development_dependency "pry", "~> 0.14.2"
+  # spec.add_development_dependency "rspec-rails", "~> 7.0"
+  # spec.add_development_dependency "rspec-sidekiq", "~> 5.0"
+  # spec.add_development_dependency "web-console", "~> 4.2.1"
 
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
