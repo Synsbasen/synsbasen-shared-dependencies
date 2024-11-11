@@ -31,9 +31,9 @@ Gem::Specification.new do |spec|
 
   # Specify the dependencies for the gem
   spec.add_dependency "rails", "~> 7.2"
-  spec.add_dependency "pg", "~> 1.1"
-  spec.add_dependency "puma", "~> 6.0"
-  spec.add_dependency "redis", "~> 4.0"
+  spec.add_dependency "pg", "~> 1.5.9"
+  spec.add_dependency "puma", "~> 6.4.3"
+  spec.add_dependency "redis", "~> 4.8.1"
   spec.add_dependency "pundit", "~> 2.4.0"
   spec.add_dependency "sidekiq", "~> 7.3.4"
   spec.add_dependency "sidekiq-unique-jobs", "~> 8.0.10"
@@ -41,7 +41,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "sentry-rails", "~> 5.21.0"
   spec.add_dependency "sentry-sidekiq", "~> 5.21.0"
   spec.add_dependency "prometheus_exporter", "~> 2.1.1"
-  spec.add_dependency "listen", "~> 3.3"
+  spec.add_dependency "listen", "~> 3.9"
   spec.add_dependency "ransack", "~> 4.2.1"
   spec.add_dependency "slim", "~> 5.2.1"
   spec.add_dependency "slim-rails", "~> 3.6.3"
