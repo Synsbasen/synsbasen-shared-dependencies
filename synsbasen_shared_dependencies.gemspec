@@ -52,6 +52,8 @@ Gem::Specification.new do |spec|
   spec.add_dependency "sprockets-rails", "~> 3.5.2"
   spec.add_dependency "redcarpet", "~> 3.6.0"
   spec.add_dependency "paranoia", "~> 3.0.0"
+  spec.add_dependency "slack-ruby-client", "~> 2.1.0"
+  spec.add_dependency "async-websocket", "~> 0.8.0"
 
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html

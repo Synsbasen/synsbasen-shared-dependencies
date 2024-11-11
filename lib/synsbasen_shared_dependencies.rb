@@ -20,11 +20,8 @@ require 'jsbundling-rails'
 require 'cssbundling-rails'
 require 'redcarpet'
 require 'paranoia'
+require 'slack-ruby-client'
 
 require_relative "synsbasen_shared_dependencies/version"
 require_relative 'synsbasen_shared_dependencies/sidekiq_initializer'
-
-module SynsbasenSharedDependencies
-  class Error < StandardError; end
-  # Your code goes here...
-end
+require_relative "synsbasen_slack"
