@@ -31,6 +31,7 @@ Gem::Specification.new do |spec|
 
   # Specify the dependencies for the gem
   spec.add_dependency "rails", "7.2.2"
+  spec.add_dependency "railties", "7.2.2"
   spec.add_dependency "pg", "1.5.9"
   spec.add_dependency "puma", "6.4.3"
   spec.add_dependency "redis", "4.8.1"
