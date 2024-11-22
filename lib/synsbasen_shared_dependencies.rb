@@ -22,5 +22,5 @@ require 'redcarpet'
 require 'paranoia'
 require 'slack-ruby-client'
 
-require_relative "railtie" if defined?(Rails)
+require_relative "synsbasen_shared_dependencies/railtie" if defined?(Rails)
 require_relative "synsbasen_shared_dependencies/version"

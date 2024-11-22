@@ -1,5 +1,5 @@
-require_relative "../synsbasen_slack/config"
-require_relative "../synsbasen_slack/wrapper"
+require_relative "../../synsbasen_slack/config"
+require_relative "../../synsbasen_slack/wrapper"
 
 Rails.application.reloader.to_prepare do
   SynsbasenSlack.configure do |config|
