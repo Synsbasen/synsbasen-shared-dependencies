@@ -24,3 +24,10 @@ require 'slack-ruby-client'
 
 require_relative "synsbasen_shared_dependencies/railtie" if defined?(Rails)
 require_relative "synsbasen_shared_dependencies/version"
+
+# Load all Rake tasks in the tasks folder
+if defined?(Rake)
+  Dir[File.expand_path('tasks/*.rake', __dir__)].each do |task_file|
+    load task_file
+  end
+end
