@@ -4,6 +4,12 @@ require 'sidekiq-unique-jobs'
 require_relative 'sidekiq_client_middleware'
 require_relative 'sidekiq_server_middleware'
 
+unless Rails.env.production?
+  Rails.application.executor.wrap do
+    Rake::Task['sidekiq:clear'].invoke
+  end
+end
+
 Sidekiq.configure_client do |config|
   config.redis = {
     url: ENV.fetch('REDIS_URL', 'redis://localhost:6379/1'),
