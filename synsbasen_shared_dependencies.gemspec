@@ -46,7 +46,6 @@ Gem::Specification.new do |spec|
   spec.add_dependency "ransack", "4.2.1"
   spec.add_dependency "slim", "5.2.1"
   spec.add_dependency "slim-rails", "3.6.3"
-  spec.add_dependency "sassc-rails", "2.1.2"
   spec.add_dependency "autoprefixer-rails", "10.4.19.0"
   spec.add_dependency "jsbundling-rails", "1.3.1"
   spec.add_dependency "cssbundling-rails", "1.4.1"
