@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.description = "This gem provides a collection of dependencies shared across Synsbasen's applications, including essential libraries for web application performance, monitoring, and error tracking."
   spec.homepage = "https://api.synsbasen.dk/"
   spec.license = "MIT"
-  spec.required_ruby_version = "~> 3.2.1"
+  spec.required_ruby_version = "~> 3.4.4"
 
   spec.metadata["allowed_push_host"] = "https://rubygems.org"
   spec.metadata["homepage_uri"] = spec.homepage
