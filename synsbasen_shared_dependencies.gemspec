@@ -49,7 +49,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "autoprefixer-rails", "10.4.19.0"
   spec.add_dependency "jsbundling-rails", "1.3.1"
   spec.add_dependency "cssbundling-rails", "1.4.1"
-  spec.add_dependency "sprockets-rails", "3.5.2"
+  spec.add_dependency "propshaft", "1.1.0"
   spec.add_dependency "redcarpet", "3.6.0"
   spec.add_dependency "paranoia", "3.0.0"
   spec.add_dependency "slack-ruby-client", "2.1.0"
