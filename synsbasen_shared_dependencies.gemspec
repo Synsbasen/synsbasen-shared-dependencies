@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.description = "This gem provides a collection of dependencies shared across Synsbasen's applications, including essential libraries for web application performance, monitoring, and error tracking."
   spec.homepage = "https://api.synsbasen.dk/"
   spec.license = "MIT"
-  spec.required_ruby_version = "~> 3.2.1"
+  spec.required_ruby_version = "~> 3.4.4"
 
   spec.metadata["allowed_push_host"] = "https://rubygems.org"
   spec.metadata["homepage_uri"] = spec.homepage
@@ -30,8 +30,8 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   # Specify the dependencies for the gem
-  spec.add_dependency "rails", "7.2.2"
-  spec.add_dependency "railties", "7.2.2"
+  spec.add_dependency "rails", "8.0.3"
+  spec.add_dependency "railties", "8.0.3"
   spec.add_dependency "pg", "1.5.9"
   spec.add_dependency "puma", "6.4.3"
   spec.add_dependency "redis", "4.8.1"
@@ -51,7 +51,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "cssbundling-rails", "1.4.1"
   spec.add_dependency "sprockets-rails", "3.5.2"
   spec.add_dependency "redcarpet", "3.6.0"
-  spec.add_dependency "paranoia", "3.0.0"
+  spec.add_dependency "paranoia", "3.0.1"
   spec.add_dependency "slack-ruby-client", "2.1.0"
   spec.add_dependency "async-websocket", "0.8.0"
 
