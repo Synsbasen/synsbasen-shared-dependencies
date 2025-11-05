@@ -21,7 +21,7 @@ class SidekiqServerMiddleware
       Sidekiq.logger.error(e.backtrace.join("\n"))
 
       # Notify via Slack
-      slack_wrapper.chat_postMessage(text: "`Sidekiq`: *#{worker.class.to_s}* failed with error: #{e.message}").call
+      SynsbasenSlack::Wrapper.new.chat_postMessage(text: "`Sidekiq`: *#{worker.class.to_s}* failed with error: #{e.message}").call
 
       raise e # Re-raise the exception so that Sidekiq knows the job failed
     ensure
