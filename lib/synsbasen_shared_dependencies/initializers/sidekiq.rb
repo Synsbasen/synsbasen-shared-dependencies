@@ -32,7 +32,7 @@ Sidekiq.configure_server do |config|
     chain.add SidekiqUniqueJobs::Middleware::Server
   end
 
-  config.error_handlers << proc do |exception, context|
+  config.error_handlers << proc do |exception, context, _config|
     Sentry.capture_exception(exception, extra: context)
   end
 
